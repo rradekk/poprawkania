@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css"; // Dodaj stylizację w pliku CSS, np. dla czarnego tła i białego tekstu
+import "./App.css";
 
 const questions = [
   {
