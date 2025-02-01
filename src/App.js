@@ -31,24 +31,96 @@ function App() {
   const [showAnswer, setShowAnswer] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [isWrong, setIsWrong] = useState(false);
+  const [selectedQuestions, setSelectedQuestions] = useState(null); // null means no selection yet
+  const [points, setPoints] = useState(0);
+  const [isRandomMode, setIsRandomMode] = useState(false);
+  const [hasAttempted, setHasAttempted] = useState(false);  // Track if user has attempted the question
 
-  const currentQuestion = questions[currentIndex];
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+
+  const handleAllQuestions = () => {
+    setSelectedQuestions([...questions]);
+    setIsRandomMode(false);
+  };
+
+  const handleRandomQuestions = () => {
+    const shuffled = shuffleArray([...questions]);
+    setSelectedQuestions(shuffled.slice(0, 20));
+    setIsRandomMode(true);
+  };
+
+  // If no questions selected yet, show selection screen
+  if (!selectedQuestions) {
+    return (
+      <div style={styles.container}>
+        <h1>Choose Quiz Mode</h1>
+        <div style={styles.modeSelection}>
+          <button 
+            style={{...styles.button, ...styles.modeButton}} 
+            onClick={handleAllQuestions}
+          >
+            All Questions ({questions.length})
+          </button>
+          <button 
+            style={{...styles.button, ...styles.modeButton}} 
+            onClick={handleRandomQuestions}
+          >
+            Random 20 Questions
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  const currentQuestion = selectedQuestions[currentIndex];
 
   const handleMultipleChoiceClick = (selectedOption) => {
-    if (selectedOption === currentQuestion.answer) {
-      setIsCorrect(true);
+    if (!hasAttempted) {  // Only count first attempt
+      setHasAttempted(true);
+      if (selectedOption === currentQuestion.answer) {
+        setIsCorrect(true);
+        if (isRandomMode) {
+          setPoints(prev => prev + 1);
+        }
+      } else {
+        setWrongAnswers(prev => new Set([...prev, selectedOption]));
+      }
     } else {
-      setWrongAnswers(prev => new Set([...prev, selectedOption]));
+      if (selectedOption === currentQuestion.answer) {
+        setIsCorrect(true);
+      } else {
+        setWrongAnswers(prev => new Set([...prev, selectedOption]));
+      }
     }
   };
 
   const handleCheckText = () => {
-    if (checkSimilarity(userInput, currentQuestion.answer)) {
-      setIsCorrect(true);
-      setShowAnswer(true);
-      setIsWrong(false);
+    if (!hasAttempted && !showAnswer) {  // Only count first attempt and if answer wasn't shown
+      setHasAttempted(true);
+      if (checkSimilarity(userInput, currentQuestion.answer)) {
+        setIsCorrect(true);
+        setShowAnswer(true);
+        setIsWrong(false);
+        if (isRandomMode) {
+          setPoints(prev => prev + 1);
+        }
+      } else {
+        setIsWrong(true);
+      }
     } else {
-      setIsWrong(true);
+      if (checkSimilarity(userInput, currentQuestion.answer)) {
+        setIsCorrect(true);
+        setShowAnswer(true);
+        setIsWrong(false);
+      } else {
+        setIsWrong(true);
+      }
     }
   };
 
@@ -59,6 +131,7 @@ function App() {
 
   const handleShowAnswer = () => {
     setShowAnswer(true);
+    setHasAttempted(true);  // Showing answer counts as an attempt
   };
 
   const goToNextQuestion = () => {
@@ -66,14 +139,23 @@ function App() {
     setShowAnswer(false);
     setIsCorrect(false);
     setWrongAnswers(new Set());
+    setHasAttempted(false);  // Reset attempt status for next question
     setCurrentIndex((prevIndex) => prevIndex + 1);
   };
 
   // When we've reached the end:
-  if (currentIndex >= questions.length) {
+  if (currentIndex >= selectedQuestions.length) {
     return (
       <div style={styles.container}>
-        <h1>All questions completed!</h1>
+        <h1>Quiz Completed!</h1>
+        {isRandomMode && (
+          <div style={styles.results}>
+            <p style={styles.score}>Your Score: {points}/20</p>
+            <p style={styles.percentage}>
+              Percentage: {((points / 20) * 100).toFixed(1)}%
+            </p>
+          </div>
+        )}
       </div>
     );
   }

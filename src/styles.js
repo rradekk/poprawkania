@@ -93,4 +93,42 @@ export const styles = {
     fontSize: "0.9em",
     margin: "0",
   },
+  modeSelection: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "20px",
+    width: "100%",
+    maxWidth: "300px",
+    margin: "0 auto",
+  },
+  modeButton: {
+    backgroundColor: "#2d2d2d",
+    color: "#ffffff",
+    padding: "20px",
+    fontSize: "1.1em",
+    textAlign: "center",
+    margin: "10px auto",
+    cursor: "pointer",
+    transition: "background-color 0.2s ease",
+    "&:hover": {
+      backgroundColor: "#3d3d3d",
+    },
+  },
+  results: {
+    marginTop: "30px",
+    padding: "20px",
+    backgroundColor: "#1e1e1e",
+    borderRadius: "8px",
+    border: "1px solid #333",
+  },
+  score: {
+    fontSize: "24px",
+    fontWeight: "bold",
+    marginBottom: "10px",
+    color: "#81c784",
+  },
+  percentage: {
+    fontSize: "20px",
+    color: "#b3b3b3",
+  },
 };

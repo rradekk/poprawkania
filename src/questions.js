@@ -1506,25 +1506,9 @@ export const questions = [
         answer: "e"
     },
     {
-        type: "multiple",
-        question: "Cechy naczyń wewnątrz kości (zaznacz fałszywe)",
-        options: {
-            A: "Cos tam i tworzą zatoki",
-            B: "Wpadają do ... zatoki",
-            C: "Są szerokie i ...",
-            D: "Tworzą splot ..."
-        },
-        answer: "Not provided"
-    },
-    {
         type: "text",
         question: "Kinaza fosfokreatyny:",
         answer: "W prążku M dostarcza ATP z fosforanu kreatyny"
-    },
-    {
-        type: "text",
-        question: "Struktury rdzenia kręgowego",
-        answer: "Not provided"
     },
     {
         type: "text",
@@ -1632,11 +1616,6 @@ export const questions = [
         question: "Z jakiego kolagenu są włókna siateczkowate?",
         answer: "Typ III",
         comment: "dobra w chuj"
-    },
-    {
-        type: "text",
-        question: "Jakie komórki występują w szpiku kostnym?",
-        answer: "Not provided"
     },
     {
         type: "text",
@@ -2006,9 +1985,10 @@ export const questions = [
         options: {
             A: "Mają mikrotubule i neurofilamenty",
             B: "Przewodzą impuls w kierunku perykarionu",
-            C: "Nie mają osłonki mielinowej"
+            C: "Nie mają osłonki mielinowej",
+            D: "A i B"
         },
-        answer: "A, B, C"
+        answer: "A i B"
     },
     {
         type: "text",
@@ -2714,5 +2694,1256 @@ export const questions = [
         type: "text",
         question: "Czym jest wydzielanie holokrynowe?",
         answer: "Charakterystyczne dla gruczołów łojowych skóry; polega na przekształceniu się komórki gruczołu w wydzielinę i wydaleniu jej w całości"
+    },
+    {
+        type: "text",
+        question: "Warstwy móżdżku – skrót DZZ oznacza?",
+        answer: "drobinowa, ziarnista, zwojowa"
+    },
+    {
+        type: "text",
+        question: "Czego nie ma w okostnej?",
+        answer: "osteocyty"
+    },
+    {
+        type: "multiple",
+        question: "Podwyższony poziom bazofili – o czym to świadczy?",
+        options: {
+            A: "bakteria",
+            B: "wirus",
+            C: "pasożyt",
+            D: "alergia",
+            E: "i coś jeszcze"
+        },
+        answer: "D",
+        comment: "Podwyższony poziom bazofili typowo świadczy o alergicznej reakcji, a nie o infekcji bakteryjnej."
+    },
+    {
+        type: "text",
+        question: "Czym wybarwiane są włókna sprężyste?",
+        answer: "orceina"
+    },
+    {
+        type: "text",
+        question: "Co przebiega przez środek prążka A?",
+        answer: "Linia M"
+    },
+    {
+        type: "text",
+        question: "Które komórki w rozmazie szpiku są największe?",
+        answer: "Megakariocyt"
+    },
+    {
+        type: "text",
+        question: "Których komórek najwięcej występuje w rozmazie krwi?",
+        answer: "Trombocyty"
+    },
+    {
+        type: "text",
+        question: "Który rodzaj tkanki kostnej nie występuje u płodów?",
+        answer: "Tkanka kostna grubowłóknista"
+    },
+    {
+        type: "multiple",
+        question: "Gdzie występuje nabłonek płaski?",
+        options: {
+            A: "naczynia krwionośne",
+            B: "jamy ciała"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Funkcja leptyny – wybierz prawidłową odpowiedź:",
+        options: {
+            A: "zwiększa oporność na insulinę",
+            B: "zwiększa uczucie głodu",
+            C: "inne",
+            D: "A i B",
+            E: "A, B i C"
+        },
+        answer: "D"
+    },
+    {
+        type: "text",
+        question: "Co odpowiada za kolor tkanki tłuszczowej żółtej?",
+        answer: "karotenoidy"
+    },
+    {
+        type: "text",
+        question: "Gdzie w mózgu nie występuje bariera krew-mózg?",
+        answer: "Dno komory 4"
+    },
+    {
+        type: "text",
+        question: "Co się wywodzi z grzebienia nerwowego?",
+        answer: "Komórki Schwanna"
+    },
+    {
+        type: "text",
+        question: "Somatomedyna C (pytanie dot. tkanki łącznej):",
+        answer: "Czynnik wzrostu produkowany przez wątrobę, działający na tkankę łączną"
+    },
+    {
+        type: "text",
+        question: "Metaloproteinazy – fałsz:",
+        answer: "False",
+        comment: "Brak poprawnej odpowiedzi; pytanie stwierdza, że podane zdanie o metaloproteinazach jest fałszywe"
+    },
+    {
+        type: "text",
+        question: "Dekoryna (w tkance łącznej):",
+        answer: "Dekoryna",
+        comment: "Nie było takiej opcji do wyboru"
+    },
+    {
+        type: "multiple",
+        question: "Co dotyczy liczby leukocytów?",
+        options: {
+            A: "Ich liczba jest stała",
+            B: "Liczba nie może być mniejsza niż 5-6 tys.",
+            C: "Ich liczba nie może być poniżej 2 tys.",
+            D: "Żadna odpowiedź nie jest prawdziwa"
+        },
+        answer: "C",
+        comment: "Prawidłowe: liczba leukocytów nie może być poniżej 2 tys."
+    },
+    {
+        type: "text",
+        question: "Jaka jest największa komórka zrębie szpiku?",
+        answer: "Megalariocyt"
+    },
+    {
+        type: "text",
+        question: "Czego jest najwięcej w rozmazie krwi?",
+        answer: "Trombocyty"
+    },
+    {
+        type: "text",
+        question: "Co się dzieje przy przekształcaniu neutrofili, eozynofili i bazofili?",
+        answer: "Zmiany w ziarnistościach i liczbie jąder, regulowane przez interleukiny"
+    },
+    {
+        type: "multiple",
+        question: "Co znajduje się w aksonie?",
+        options: {
+            A: "Filamenty aktynowe, końcem minus skierowane do perykarionu",
+            B: "Filamenty aktynowe, końcem plus skierowane do perykarionu",
+            C: "Białko MP2",
+            D: "Inne",
+            E: "Brak jednej poprawnej odpowiedzi"
+        },
+        answer: "A",
+        comment: "W aksonie dominują mikrofilamenty (m.in. filamenty aktynowe) ułożone z końcem minus w stronę perykarionu"
+    },
+    {
+        type: "text",
+        question: "Dla jakich związków są kanały termogeniny?",
+        answer: "Dla protonów (H+)"
+    },
+    {
+        type: "multiple",
+        question: "Nieregularne ułożenie mikrotubul w aksonie na skutek:",
+        options: {
+            A: "Nadmiernej fosforylacji lub defosforylacji Tau",
+            B: "Fosforylacji MAP2",
+            C: "Defosforylacji MAP2",
+            D: "Kombinacja"
+        },
+        answer: "D"
+    },
+    {
+        type: "text",
+        question: "Prawda o ciele migdałowatym:",
+        answer: "Jest w układzie limbicznym i ma wiele receptorów dla opioidów"
+    },
+    {
+        type: "text",
+        question: "Burza cytokinowa – kiedy powstaje?",
+        answer: "Podczas ptasiej grypy i pod wpływem cytokin działających plejotropowo"
+    },
+    {
+        type: "text",
+        question: "Który nabłonek nie powstaje z mezenchymy?",
+        answer: "Jelita"
+    },
+    {
+        type: "text",
+        question: "Zaznacz fałszywe o ependymie:",
+        answer: "Ependymocyty nie wyściełają wsierdzia serca",
+        comment: "Ependymocyty mają kosmki i rzęski, ale nie tworzą wsierdzia serca"
+    },
+    {
+        type: "text",
+        question: "Prawda o splocie naczyniówkówym:",
+        answer: "Składa się ze zrębu i licznych naczyń"
+    },
+    {
+        type: "text",
+        question: "Prawda o limfocytach B:",
+        answer: "Mogą prezentować antygen"
+    },
+    {
+        type: "text",
+        question: "Fałszywe o limfocytach B:",
+        answer: "Powstają w szpiku i dojrzewają w grasicy"
+    },
+    {
+        type: "text",
+        question: "Co głównie wiąże wodę w substancji pozakomórkowej?",
+        answer: "Proteoglikany i ujemne grupy glikozaminoglikanów"
+    },
+    {
+        type: "text",
+        question: "Woda w chrząstce szklistej – zaznacz prawdę:",
+        answer: "Jest jej 70% i wiąże ją głównie proteoglikany"
+    },
+    {
+        type: "text",
+        question: "Błędne o synapsie nerwowo-mięśniowej:",
+        answer: "Stwierdzenie, że błona postsynaptyczna zawiera blaszke z AChE oraz, że jest dużo pęcherzyków wydzielniczych w błonie presynaptycznej, jest błędne"
+    },
+    {
+        type: "text",
+        question: "Prawda o synapsie nerwowo-mięśniowej:",
+        answer: "Acetylocholina łączy się z kompleksem receptora związanym z kanałem wapniowym"
+    },
+    {
+        type: "text",
+        question: "Osteoklasty – co o nich wiadomo?",
+        answer: "Są rodzajem makrofagów"
+    },
+    {
+        type: "text",
+        question: "Błędne o osteoklastach:",
+        answer: "Nieaktywne są spolaryzowane",
+        comment: "Chociaż osteoklasty są wielojądrzaste, stwierdzenie o ich polaryzacji jest błędne"
+    },
+    {
+        type: "text",
+        question: "Który nabłonek NIE pochodzi z mezenchymy?",
+        answer: "Jelita"
+    },
+    {
+        type: "text",
+        question: "Ependymocyty – wybierz fałszywe stwierdzenie:",
+        answer: "Błędne jest twierdzenie, że ependymocyty są kardiomocytami"
+    },
+    {
+        type: "text",
+        question: "Co jest związane z pracą osteoklastów?",
+        answer: "Osteopontyna"
+    },
+    {
+        type: "text",
+        question: "Błędne o kolagenie I:",
+        answer: "Błędne jest stwierdzenie, że kolagen I nie jest kwasochłonny"
+    },
+    {
+        type: "text",
+        question: "Prawda o kolagenie I:",
+        answer: "Jest liczny w chrząstce małż ucha"
+    },
+    {
+        type: "multiple",
+        question: "Do kadheryn łączących filamenty pośrednie przy pomocy katenin należy:",
+        options: {
+            A: "desmoglobina",
+            B: "kadheryna K",
+            C: "kadheryna N",
+            D: "kadheryna E",
+            E: "kadheryna P"
+        },
+        answer: "C",
+        comment: "Prawidłowa odpowiedź to kadheryna N"
+    },
+    {
+        type: "multiple",
+        question: "Wtórne kostnienie:",
+        options: {
+            A: "Przy nasadach",
+            B: "Nasady kości długich",
+            C: "W kościach płaskich",
+            D: "W trzonie kości długich",
+            E: "Wszystkie wymienione"
+        },
+        answer: "B",
+        comment: "Wtórne kostnienie zachodzi głównie w nasadach kości długich"
+    },
+    {
+        type: "multiple",
+        question: "Pierwotne kostnienie:",
+        options: {
+            A: "Czynniki osteoprogenitorowe",
+            B: "Nasady kości długich – wtórne kostnienie",
+            C: "Występuje tylko w kostnieniu na podłożu chrzęstnym",
+            D: "Inne",
+            E: "A, B i C"
+        },
+        answer: "A",
+        comment: "Pierwotne kostnienie zachodzi dzięki działaniu czynników osteoprogenitorowych"
+    },
+    {
+        type: "multiple",
+        question: "Hemoliza to:",
+        options: {
+            A: "Przerwanie błony erytrocytów, skutkiem jest wypływ hemoglobiny",
+            B: "Fagocytoza erytrocytów przez makrofagi"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Wybarwiające się w retikulocytach pozostałości to:",
+        options: {
+            A: "Siateczka szorstka",
+            B: "Siateczka gładka",
+            C: "Aparat Golgiego",
+            D: "Jądro"
+        },
+        answer: "A"
+    },
+    {
+        type: "text",
+        question: "Co nie jest unerwione przez autonomiczny układ nerwowy?",
+        answer: "Mięsień szkieletowy"
+    },
+    {
+        type: "multiple",
+        question: "Fałszywe o włókienku nerwowo-mięśniowym:",
+        options: {
+            A: "Włókna śródwrzecionkowe leżą prostopadle do włókien zewnętrznych"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Z czym łączą się jony wapnia?",
+        options: {
+            A: "Kinaza kreatynowa",
+            B: "Miozyna II",
+            C: "Inne",
+            D: "A i B",
+            E: "A, B i C"
+        },
+        answer: "D",
+        comment: "Odpowiedź: A i B"
+    },
+    {
+        type: "multiple",
+        question: "Z czym łączą się filamenty grube?",
+        options: {
+            A: "Titina",
+            B: "Tropomiozyna",
+            C: "Troponina",
+            D: "Kombinacja jakaś",
+            E: "A, B, C"
+        },
+        answer: "A, B",
+        comment: "Filamenty grube łączą się głównie z titiną i tropomiozyną"
+    },
+    {
+        type: "multiple",
+        question: "Ependymocyty pokrywają:",
+        options: {
+            A: "Kór móżdżku",
+            B: "Splot naczyniówkowy"
+        },
+        answer: "B",
+        comment: "Poprawna odpowiedź to splot naczyniówkowy"
+    },
+    {
+        type: "text",
+        question: "Które komórki otoczone są ubogim ECM i mają wielokątny kształt?",
+        answer: "Adipocyty i komórki nabłonka"
+    },
+    {
+        type: "multiple",
+        question: "Zaznacz fałszywą odpowiedź o ziarninie:",
+        options: {
+            A: "Jest zbudowana z kolagenu typu 3, powstaje z fibroblastów i miofibroblastów, stymulowana przez cytokiny i czynniki wzrostu"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Jaka komórka ma lekko zasadową cytoplazmę, fasolowate jądro i średnicę dwa razy większą od erytrocytu?",
+        options: {
+            A: "Granulocyt kwasochłonny",
+            B: "Granulocyt zasadochłonny",
+            C: "Monocyt",
+            D: "Limfocyt średni",
+            E: "Limfocyt duży"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Włókno nerwowe bezrdzenne to:",
+        options: {
+            A: "Tylko neurolema",
+            B: "Lemocyty bez aksonów"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Nieregularne ułożenie mikrotubul w aksonie na skutek:",
+        options: {
+            A: "Nadmiernej fosforylacji lub defosforylacji Tau",
+            B: "Fosforylacji MAP2",
+            C: "Defosforylacji MAP2",
+            D: "Kombinacja"
+        },
+        answer: "A"
+    },
+    {
+        type: "text",
+        question: "Prawda o ciele migdałowatym:",
+        answer: "Jest w układzie limbicznym i ma wiele receptorów dla opioidów"
+    },
+    {
+        type: "text",
+        question: "Burza cytokinowa – kiedy powstaje?",
+        answer: "Podczas ptasiej grypy i pod wpływem cytokinin działających plejotropowo"
+    },
+    {
+        type: "text",
+        question: "Który nabłonek nie powstaje z mezenchymy?",
+        answer: "Jelita"
+    },
+    {
+        type: "text",
+        question: "Zaznacz fałszywe o ependymie:",
+        answer: "Ependymocyty nie wyściełają wsierdzia serca",
+        comment: "Ependymocyty mają kosmki i rzęski, ale nie tworzą wsierdzia serca"
+    },
+    {
+        type: "text",
+        question: "Prawda o splocie naczyniówkówym:",
+        answer: "Składa się ze zrębu i licznych naczyń"
+    },
+    {
+        type: "text",
+        question: "Prawda o limfocytach B:",
+        answer: "Mogą prezentować antygen"
+    },
+    {
+        type: "text",
+        question: "Fałszywe o limfocytach B:",
+        answer: "Powstają w szpiku i dojrzewają w grasicy"
+    },
+    {
+        type: "text",
+        question: "Co głównie wiąże wodę w substancji pozakomórkowej?",
+        answer: "Proteoglikany i ujemne grupy glikozaminoglikanów"
+    },
+    {
+        type: "text",
+        question: "Woda w chrząstce szklistej – zaznacz prawdę:",
+        answer: "Jest jej 70% i wiąże ją głównie proteoglikany"
+    },
+    {
+        type: "text",
+        question: "Błędne o synapsie nerwowo-mięśniowej:",
+        answer: "Błędne jest stwierdzenie, że błona postsynaptyczna zawiera blaszke z AChE oraz że jest dużo pęcherzyków wydzielniczych w błonie presynaptycznej"
+    },
+    {
+        type: "text",
+        question: "Prawda o synapsie nerwowo-mięśniowej:",
+        answer: "Acetylocholina łączy się z kompleksem receptora związanym z kanałem wapniowym"
+    },
+    {
+        type: "text",
+        question: "O osteoklastach – co o nich wiadomo?",
+        answer: "Są rodzajem makrofagów"
+    },
+    {
+        type: "text",
+        question: "Błędne o osteoklastach:",
+        answer: "Nieaktywne są spolaryzowane",
+        comment: "To stwierdzenie jest błędne"
+    },
+    {
+        type: "text",
+        question: "Który nabłonek NIE pochodzi z mezodermy?",
+        answer: "Jelita"
+    },
+    {
+        type: "text",
+        question: "Ependymocyty – wybierz fałszywe stwierdzenie:",
+        answer: "Błędne jest twierdzenie, że ependymocyty są kardiomocytami"
+    },
+    {
+        type: "text",
+        question: "Co jest związane z pracą osteoklastów?",
+        answer: "Osteopontyna"
+    },
+    {
+        type: "text",
+        question: "Błędne o kolagenie I:",
+        answer: "Błędne jest stwierdzenie, że kolagen I nie jest kwasochłonny"
+    },
+    {
+        type: "text",
+        question: "Prawda o kolagenie I:",
+        answer: "Jest liczny w chrząstce małż ucha"
+    },
+
+    {
+        type: "text",
+        question: "Co łączy sarkomer z macierzą zewnątrzkomórkową?",
+        answer: "Kostamer"
+    },
+    {
+        type: "text",
+        question: "Z czego powstają adipocyty tkanki tłuszczowej żółtej?",
+        answer: "Lipoblasty"
+    },
+    {
+        type: "text",
+        question: "Co odróżnia tkankę tłuszczową żółtą od brunatnej?",
+        answer: "W tkance żółtej występuje jedna duża kropla tłuszczu, a w brunatnej kilka małych"
+    },
+    {
+        type: "multiple",
+        question: "Prawdziwe o tkance tłuszczowej brunatnej:",
+        options: {
+            A: "Mają liczne mitochondria",
+            B: "Spłaszczone jądro położone peryferycznie",
+            C: "Wiele kropel tłuszczu",
+            D: "Okrągłe centralnie położone jądro komórkowe"
+        },
+        answer: "A, C, D"
+    },
+    {
+        type: "text",
+        question: "Czym są szeregi Ranviera?",
+        answer: "Fibroblasty ułożone w szeregu w tkance łącznej właściwej zbitej"
+    },
+    {
+        type: "text",
+        question: "Co to jest hemoliza?",
+        answer: "Rozpad erytrocytu z wydobyciem żelaza z nich"
+    },
+    {
+        type: "text",
+        question: "Jak nazywamy przechodzenie leukocytów przez ścianę naczynia krwionośnego?",
+        answer: "Diapedeza"
+    },
+    {
+        type: "text",
+        question: "Z czego zbudowane jest jądro miażdżyste?",
+        answer: "Tkanka łączna galaretowata"
+    },
+    {
+        type: "text",
+        question: "Wybrane prawidłowe parametry krwi:",
+        answer: "Erytrocyty 4,5-5 milionów/mm³"
+    },
+    {
+        type: "multiple",
+        question: "Co uaktywnia antytrombinę II?",
+        options: {
+            A: "Heparyna",
+            B: "Histamina",
+            C: "Inne"
+        },
+        answer: "A",
+        comment: "Prawidłowa odpowiedź to heparyna"
+    },
+    {
+        type: "text",
+        question: "Glikoproteina:",
+        answer: "Laminina"
+    },
+    {
+        type: "text",
+        question: "Co wpływa hamująco na chondrocyty?",
+        answer: "Estrogen"
+    },
+    {
+        type: "multiple",
+        question: "Co w głównej mierze wiąże wodę w tkance łącznej?",
+        options: {
+            A: "Proteoglikany",
+            B: "Ujemne reszty GAG",
+            C: "Kolagen",
+            D: "A, B",
+            E: "A, B, C"
+        },
+        answer: "D"
+    },
+    {
+        type: "multiple",
+        question: "Limfocytopoeza zachodzi:",
+        options: {
+            A: "w grasicy",
+            B: "w szpiku kostnym",
+            C: "w przewodzie pokarmowym",
+            D: "A, B, C",
+            E: "A, B"
+        },
+        answer: "E"
+    },
+    {
+        type: "multiple",
+        question: "Co odróżnia limfocyty B od T?",
+        options: {
+            A: "B są mniejsze od T",
+            B: "Inne",
+            C: "Inne",
+            D: "Inne",
+            E: "Żadne z powyższych"
+        },
+        answer: "E",
+        comment: "Limfocyty B i T są nie do odróżnienia pod mikroskopem, różnią się jedynie receptorami powierzchniowymi"
+    },
+    {
+        type: "multiple",
+        question: "W jakim stadium erytrocytopoezy pojawiają się pierwsze ziarnistości z hemoglobiną?",
+        options: {
+            A: "Retikulocyty",
+            B: "Normoblast",
+            C: "Erytroblast wielobarwliwy",
+            D: "Erytroblast zasadochłonny",
+            E: "Proerytroblast"
+        },
+        answer: "C"
+    },
+    {
+        type: "multiple",
+        question: "Białko związane z filamentami grubymi:",
+        options: {
+            A: "Titina",
+            B: "Tropomiozyna",
+            C: "Troponina",
+            D: "A, B",
+            E: "A, B, C"
+        },
+        answer: "D"
+    },
+    {
+        type: "multiple",
+        question: "Które z białek nie jest zaliczane do białek osocza?",
+        options: {
+            A: "Albumina",
+            B: "Lipoproteina",
+            C: "Fibrynogen",
+            D: "Tektyna",
+            E: "Jeszcze jakieś"
+        },
+        answer: "D"
+    },
+    {
+        type: "multiple",
+        question: "Co wywodzi się z mezodermy?",
+        options: {
+            A: "Ependymocyty i mikroglej",
+            B: "Ependymocyty i komórki satelitarne",
+            C: "Limfocyty i ...",
+            D: "Astrocyty i ...",
+            E: "Tylko mikroglej"
+        },
+        answer: "E",
+        comment: "Tylko mikroglej pochodzi z mezodermy"
+    },
+    {
+        type: "multiple",
+        question: "WNT, TGF beta, FGF:",
+        options: {
+            A: "Wpływają na położenie kości",
+            B: "Wpływają na kostnienie",
+            C: "Powodują przepływ osteoblastów do wnętrza kości",
+            D: "A, B",
+            E: "A, B, C"
+        },
+        answer: "E"
+    },
+
+    {
+        type: "text",
+        question: "Co buduje kolagen typu IV?",
+        answer: "Blaszkę podstawną nabłonków"
+    },
+    {
+        type: "text",
+        question: "Czym charakteryzuje się starsza chrząstka szklista?",
+        answer: "Jest kwasochłonna"
+    },
+    {
+        type: "text",
+        question: "W co mogą się różnicować limfocyty B?",
+        answer: "W plazmocyty"
+    },
+    {
+        type: "text",
+        question: "Nieprawdziwe o naczyniach krwionośnych w szpiku kostnym:",
+        answer: "Mają grubą warstwę tkanki mięśniowej gładkiej"
+    },
+    {
+        type: "multiple",
+        question: "Prawdziwe o tkance kostnej gąbczastej:",
+        options: {
+            A: "Ułożenie beleczek odzwierciedla działanie sił na kość",
+            B: "W beleczkach znajdują się osteocyty",
+            C: "Na ich powierzchni występują osteoklasty",
+            D: "Wolne przestrzenie wypełnia szpik kostny",
+            E: "A, B, C, D"
+        },
+        answer: "E"
+    },
+    {
+        type: "text",
+        question: "Co tworzy strefę izolacji podczas resorpcji kości?",
+        answer: "Osteopontyna"
+    },
+    {
+        type: "text",
+        question: "Z czego składa się śródnerwie?",
+        answer: "Lemocyty i komórki Schwanna"
+    },
+    {
+        type: "multiple",
+        question: "Czym jest kanalik T?",
+        options: {
+            A: "Uwypukleniem sarkolemmy",
+            B: "Siateczką śródplazmatyczną gładką",
+            C: "Coś z sarkoplazmą",
+            D: "Łączy położone po przeciwnych stronach miofibryle"
+        },
+        answer: "A"
+    },
+    {
+        type: "text",
+        question: "Czym barwią się włókna sprężyste?",
+        answer: "Orceiną"
+    },
+    {
+        type: "text",
+        question: "Co oznacza nieregularne ułożenie włókien, pofałdowane, występujące w dysku międzykręgowym, oku i warstwie siateczkowej skóry?",
+        answer: "Kolagen typu II"
+    },
+    {
+        type: "multiple",
+        question: "Gdzie występuje burza cytokinowa?",
+        options: {
+            A: "Cos tam plazja",
+            B: "Ptasia grypa",
+            C: "Inna choroba"
+        },
+        answer: "B"
+    },
+    {
+        type: "multiple",
+        question: "Jakie są prawidłowe wartości elementów krwi?",
+        options: {
+            A: "4-5 mln erytrocytów/mm³",
+            B: "150-400 tys. trombocytów/mm³",
+            C: "5-10% bazofilów",
+            D: "x-y% neutrofilów",
+            E: "x-y% eozynofilów"
+        },
+        answer: "A, B, C"
+    },
+    {
+        type: "multiple",
+        question: "Wskaż fałszywe zdanie o ependymocytach:",
+        options: {
+            A: "Wyściełają komory mózgu i rdzeń",
+            B: "Są nabłonkiem jednowarstwowym płaskim",
+            C: "Nielicznie występują w wsierdziu"
+        },
+        answer: "B"
+    },
+    {
+        type: "text",
+        question: "Jaki kolagen tworzy rozgałęzienia?",
+        answer: "Kolagen typu X"
+    },
+    {
+        type: "multiple",
+        question: "Jakie są funkcje nabłonka?",
+        options: {
+            A: "Wydzielnicza",
+            B: "Ochronna",
+            C: "Absorpcyjna",
+            D: "A i B",
+            E: "A, B, C"
+        },
+        answer: "E"
+    },
+    {
+        type: "text",
+        question: "Witamina D – funkcje",
+        answer: "Aktywuje gen dla osteokalcyny (białko wiążące hydroksyapatyt). Receptory dla niej znajdują się w jądrach osteoblastów.",
+        comment: "Sawik str.193"
+    },
+    {
+        type: "text",
+        question: "Eikozanoidy",
+        answer: "Leukotrieny V4"
+    },
+    {
+        type: "text",
+        question: "Gdzie pojawiają się pierścienie Cabota?",
+        answer: "Erytrocyty"
+    },
+    {
+        type: "multiple",
+        question: "Jakie komórki są w korze mózgu?",
+        options: {
+            A: "Koszyczkowe",
+            B: "Cajala",
+            C: "Piramidalne",
+            D: "X",
+            E: "X"
+        },
+        answer: "A",
+        comment: "Chyba to wchodziło"
+    },
+    {
+        type: "text",
+        question: "Czego nie widać pod mikroskopem w przekroju poprzecznym włókna obwodowego?",
+        answer: "Prawdopodobnie tigroidu"
+    },
+    {
+        type: "text",
+        question: "Czym jest pilśń nerwowa?",
+        answer: "Splątane astrocyty i neurony w istocie szarej, oraz przewężenia w istocie białej",
+        comment: "Inne warianty odpowiedzi nie zostały zapamiętane"
+    },
+    {
+        type: "text",
+        question: "Jaki związek jest najlepszy dla ruchu komórek?",
+        answer: "Agrekan"
+    },
+    {
+        type: "multiple",
+        question: "Co wpływa na wygląd erytrocytu?",
+        options: {
+            A: "Osmolarność osocza",
+            B: "Białka podbłonowe",
+            C: "Brak jądra",
+            D: "Kombinacja"
+        },
+        answer: "D",
+        comment: "Kombinacja czynników wpływających na wygląd erytrocytu"
+    },
+    {
+        type: "text",
+        question: "Z czego składa się opona twarda?",
+        answer: "Tkanka łączna właściwa"
+    },
+    {
+        type: "multiple",
+        question: "Co produkuje substancję międzykostną?",
+        options: {
+            A: "Chondroblasty",
+            B: "Osteoblasty",
+            C: "Osteoklasty",
+            D: "Fibroblasty"
+        },
+        answer: "D",
+        comment: "Odpowiedź: fibroblasty (niepewność)"
+    },
+    {
+        type: "multiple",
+        question: "Które z poniższych jest fałszywe o limfocycie?",
+        options: {
+            A: "Ma okrągłe jądro",
+            B: "Ma segmentowane jądro",
+            C: "Ma zasadochłonną cytoplazmę",
+            D: "Inne"
+        },
+        answer: "B",
+        comment: "Fałszywe jest, że limfocyt ma segmentowane jądro"
+    },
+    {
+        type: "multiple",
+        question: "W którym stadium pojawia się hemoglobina podczas powstawania erytrocytu?",
+        options: {
+            A: "Erytroblast wielobarwliwy",
+            B: "Erytroblast zasadochłonny",
+            C: "Retikulocyt",
+            D: "Orochromatyczny"
+        },
+        answer: "A"
+    },
+    {
+        type: "text",
+        question: "Które komórki mają pozostałości RER i rybosomów?",
+        answer: "Retikulocyty"
+    },
+    {
+        type: "multiple",
+        question: "Co nadaje kształt erytrocytom pseudobiconcave?",
+        options: {
+            A: "Osmolalność osocza",
+            B: "Białka podbłonowe",
+            C: "Brak jądra",
+            D: "Kombinacja powyższych"
+        },
+        answer: "D"
+    },
+    {
+        type: "multiple",
+        question: "Jakiego białka nie ma we krwi?",
+        options: {
+            A: "Tektyna",
+            B: "Globuliny",
+            C: "Albumina",
+            D: "Fibryna"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Jakie są cechy komórek zwojowych?",
+        options: {
+            A: "Rzekomojednobiegunowe",
+            B: "Jednobiegunowe",
+            C: "Dwubiegunowe",
+            D: "Wielobiegunowe"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Jakie są funkcje astrocytów przy uszkodzeniu neuronów?",
+        options: {
+            A: "Tworzą bliznę glejową",
+            B: "Wytwarzają kwaśne białka",
+            C: "Wspomagają regenerację neuronów",
+            D: "Kombinacja powyższych"
+        },
+        answer: "D"
+    },
+    {
+        type: "multiple",
+        question: "Jak nazywa się stan, w którym jest zbyt mało limfocytów?",
+        options: {
+            A: "Monocytoza",
+            B: "Leukopenia",
+            C: "Leukocytoza"
+        },
+        answer: "B"
+    },
+    {
+        type: "text",
+        question: "Gdzie najczęściej znajduje się kolagen IV?",
+        answer: "W błonie podstawnej"
+    },
+    {
+        type: "multiple",
+        question: "Co wchodzi w skład blaszki jasnej błony podstawnej?",
+        options: {
+            A: "Kolagen IV",
+            B: "Lamina",
+            C: "Kolagen VII",
+            D: "Perlekan",
+            E: "B i D"
+        },
+        answer: "E",
+        comment: "Opcja E (B i D) – chociaż opcja B mogłaby być również uznana"
+    },
+    {
+        type: "text",
+        question: "Co dotyczą stromielinazy i kolagenazy?",
+        answer: "Nie podano wystarczających informacji"
+    },
+    {
+        type: "multiple",
+        question: "Gdzie leżą komórki progenitorowe i macierzyste kości?",
+        options: {
+            A: "W linii cementowej",
+            B: "W jamkach kostnych",
+            C: "Okostna",
+            D: "Śródkostna",
+            E: "B i C"
+        },
+        answer: "E"
+    },
+    {
+        type: "multiple",
+        question: "Na jakiej podstawie rozróżniamy nabłonki?",
+        options: {
+            A: "Kształt komórek i kształt jądra",
+            B: "Wielkość komórek",
+            C: "Kształt komórek przy błonie podstawnej",
+            D: "Kształt błony podstawnej"
+        },
+        answer: "A",
+        comment: "Baza: kształt komórek i jądra"
+    },
+    {
+        type: "multiple",
+        question: "Co zawiera prążek H?",
+        options: {
+            A: "Filamenty M",
+            B: "Miofilamenty aktynowe",
+            C: "Miofilamenty miozynowe",
+            D: "Desminy"
+        },
+        answer: "C",
+        comment: "Chyba C"
+    },
+    {
+        type: "multiple",
+        question: "Co zawierają ziarenka trombocytów?",
+        options: {
+            A: "Czynniki wzrostu",
+            B: "Fibrynę",
+            C: "Heparynę",
+            D: "Kombinacja reszty"
+        },
+        answer: "A",
+        comment: "Prawdopodobnie zawierają czynniki wzrostu"
+    },
+    {
+        type: "text",
+        question: "Co produkują plazmocyty?",
+        answer: "Immunoglobuliny"
+    },
+    {
+        type: "multiple",
+        question: "Ciałka Cajala w miocytach gładkich:",
+        options: {
+            A: "Własności nerwowo-włóknowe",
+            B: "Mają funkcję rozrusznikową",
+            C: "Tworzą diady",
+            D: "A, B i C poprawne"
+        },
+        answer: "D",
+        comment: "Odp: chyba D"
+    },
+    {
+        type: "multiple",
+        question: "Pochewka ścięgna:",
+        options: {
+            A: "Występuje w każdym ścięgnie (fałsz)",
+            B: "Ma warstwę wewnętrzną i zewnętrzną, pomiędzy którą znajduje się maź"
+        },
+        answer: "B"
+    },
+    {
+        type: "text",
+        question: "Gdzie jest najwięcej chrząstki sprężystej?",
+        answer: "W uchu (np. w małżowinach usznych)"
+    },
+    {
+        type: "multiple",
+        question: "Gdzie występuje chrząstkozrost?",
+        options: {
+            A: "Szwy pomiędzy kośćmi czaszki",
+            B: "Wklinowanie zęba",
+            C: "Spojenie łonowe",
+            D: "Staw łokciowy",
+            E: "Inny staw"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Gdzie płyn mózgowo-rdzeniowy przechodzi do krwi?",
+        options: {
+            A: "Ziarnistości pajęczynówki",
+            B: "Inna opcja",
+            C: "Wodociąg sylwiusza",
+            D: "Namiot móżdżku"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Trombopoetyna, interleukiny, itp. – co pobudzają?",
+        options: {
+            A: "Megakarioblasty"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Za co nie odpowiada szpik kostny?",
+        options: {
+            A: "Niszczenie erytrocytów zużytych i źle zbudowanych",
+            B: "Przechowywanie żelaza",
+            C: "Wytwarzanie komórek satelitarnych mięśni",
+            D: "Wytwarzanie erytrocytów"
+        },
+        answer: "C"
+    },
+    {
+        type: "text",
+        question: "Tkanką brunatną:",
+        answer: "Jest jej dużo u zwierząt hibernujących"
+    },
+    {
+        type: "multiple",
+        question: "Fałszywe o limfocytach:",
+        options: {
+            A: "Są długie i podłużne",
+            B: "Występują w ośrodkowym układzie nerwowym",
+            C: "Występują w obwodowym układzie nerwowym"
+        },
+        answer: "B",
+        comment: "Limfocyty nie występują w ośrodkowym układzie nerwowym"
+    },
+    {
+        type: "multiple",
+        question: "Z czego zbudowana jest blaszka jasna?",
+        options: {
+            A: "Kolagen IV",
+            B: "Kolagen VII",
+            C: "Coś tam",
+            D: "Lamina"
+        },
+        answer: "D",
+        comment: "Lamina – lamina jest obecna w blaszce jądra komórkowego, a w blaszce jasnej dominują lamininy"
+    },
+    {
+        type: "text",
+        question: "Co produkują fibroblasty?",
+        answer: "Kolagenazę"
+    },
+    {
+        type: "multiple",
+        question: "Co stanowi najlepsze podłoże do transportu?",
+        options: {
+            A: "Dekoryna",
+            B: "Kwas hialuronowy",
+            C: "X",
+            D: "X"
+        },
+        answer: "B",
+        comment: "Odpowiedź: kwas hialuronowy – to chyba najlepsze podłoże"
+    },
+    {
+        type: "text",
+        question: "Co możesz powiedzieć o fosfolambanie?",
+        answer: "Fosfolamban to białko regulujące transport wapnia w sarkoplazmatycznym retikulum, hamujące pompę SERCA"
+    },
+    {
+        type: "text",
+        question: "Jaki jest stosunek procentowy trombocytów w krwi?",
+        answer: "Około 0,2% objętości krwi"
+    },
+    {
+        type: "text",
+        question: "Co o osteopontynie jest prawdziwe?",
+        answer: "Wydzielają osteoklasty"
+    },
+    {
+        type: "text",
+        question: "Czym są ziarenka Nissla?",
+        answer: "Ziarenka Nissla to siateczka śródplazmatyczna szorstka, inaczej tigroid, obecna w ciałku neuronu"
+    },
+    {
+        type: "multiple",
+        question: "Etapy powstawania erytrocytów:",
+        options: {
+            A: "Zasadochłonne, retikulocyty, kwasochłonne",
+            B: "Inna kolejność"
+        },
+        answer: "A",
+        comment: "Baza dobra w chuj 2016"
+    },
+    {
+        type: "multiple",
+        question: "Prawda o kardiomiocytach:",
+        options: {
+            A: "Mają jedno jądro",
+            B: "Mają jedno lub dwa jądra",
+            C: "Mają dwa jądra"
+        },
+        answer: "B",
+        comment: "Kardiomiocyty mogą mieć jedno lub dwa jądra, zależnie od konkretnego przypadku"
+    },
+    {
+        type: "text",
+        question: "Jakie kryteria bierze się pod uwagę w klasyfikacji nabłonków?",
+        answer: "Kształt komórek i jądra"
+    },
+    {
+        type: "multiple",
+        question: "Co należy do glikoprotein?",
+        options: {
+            A: "Perlekan",
+            B: "Aggrekan",
+            C: "Dekoryna",
+            D: "Syndecan"
+        },
+        answer: "C",
+        comment: "Dekoryna jest klasyfikowana jako glikoproteina, podczas gdy pozostałe są proteoglikanami."
+    },
+    {
+        type: "text",
+        question: "Czym jest heparyna?",
+        answer: "Glikozaminoglikanem"
+    },
+    {
+        type: "text",
+        question: "Jaki pigment odpowiada za kolor istoty czarnej?",
+        answer: "Melanina (Sawicki, str. 396)"
+    },
+    {
+        type: "text",
+        question: "Jaka komórka ma ziarnistości kwasochłonne, zasadochłonne i obojętnochłonne?",
+        answer: "Granulocyt obojętnochłonny"
+    },
+    {
+        type: "text",
+        question: "Komórki baldaszkowate występują w:",
+        answer: "Pęcherzu moczowym"
+    },
+    {
+        type: "text",
+        question: "Tworzenie mankietu kostnego odbywa się w mechanizmie:",
+        answer: "Kostnienie na podłożu błoniastym"
+    },
+    {
+        type: "text",
+        question: "Dla jakiej tkanki są charakterystyczne wstawki?",
+        answer: "Tkanka mięśniowa poprzecznie prążkowana sercowa"
+    },
+    {
+        type: "multiple",
+        question: "Granulomer, hialuloner, otwarty kanał kanalików (OCT) to określenia charakterystyczne dla:",
+        options: {
+            A: "Granulocytów obojętnochłonnych",
+            B: "Granulocytów kwasochłonnych",
+            C: "Promielocytów",
+            D: "Płytek krwi",
+            E: "Limfocytów"
+        },
+        answer: "D"
+    },
+    {
+        type: "text",
+        question: "Chrząstka sprężysta występuje w:",
+        answer: "małżowinie usznej"
+    },
+    {
+        type: "text",
+        question: "Wydzielanie apokrynowe:",
+        answer: "Powoduje obytej szczytowej części komórki"
+    },
+    {
+        type: "text",
+        question: "Prawda o chylomikronach:",
+        answer: "Transportują tłuszcze wchłonięte z jelita cienkiego"
+    },
+    {
+        type: "multiple",
+        question: "Co wpływa na kształt erytrocytu?",
+        options: {
+            A: "budowa cytoszkieletu",
+            B: "Osmotyczność osocza",
+            C: "Brak jądra",
+            D: "A i B prawidłowe",
+            E: "A, B i C prawidłowe"
+        },
+        answer: "E",
+        comment: "A, B i C są poprawne"
     },
 ];
