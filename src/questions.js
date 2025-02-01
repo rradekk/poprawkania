@@ -2479,5 +2479,240 @@ export const questions = [
         },
         answer: "C"
     },
-
+    {
+        type: "multiple",
+        question: "Do kadheryn łączących filamenty pośrednie przy pomocy katenin należy:",
+        options: {
+            A: "desmoglobina",
+            B: "kadheryna K",
+            C: "kadheryna N",
+            D: "kadheryna E",
+            E: "kadheryna P"
+        },
+        answer: "C",
+        comment: "Prawidłowa odpowiedź to kadheryna N, która łączy filamenty pośrednie przy pomocy katenin."
+    },
+    {
+        type: "multiple",
+        question: "Wtórne kostnienie:",
+        options: {
+            A: "przy nasadach",
+            B: "Nasady kości długich",
+            C: "w kościach płaskich",
+            D: "w trzonie kości długich",
+            E: "Wszystkie wymienione"
+        },
+        answer: "B",
+        comment: "Wtórne kostnienie zachodzi głównie w nasadach kości długich."
+    },
+    {
+        type: "multiple",
+        question: "Pierwotne kostnienie:",
+        options: {
+            A: "Czynniki osteoprogenitorowe",
+            B: "Nasady kości długich – wtórne kostnienie",
+            C: "Występuje tylko w kostnieniu na podłożu chrzęstnym",
+            D: "Inne",
+            E: "A, B i C"
+        },
+        answer: "A",
+        comment: "Pierwotne kostnienie zachodzi dzięki działaniu czynników osteoprogenitorowych."
+    },
+    {
+        type: "multiple",
+        question: "Hemoliza to:",
+        options: {
+            A: "Przerwanie błony erytrocytów, skutkiem jest wypływ hemoglobiny",
+            B: "Fagocytoza erytrocytów przez makrofagi"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Wybarwiające się w retikulocytach pozostałości to:",
+        options: {
+            A: "Siateczka szorstka",
+            B: "Siateczka gładka",
+            C: "Aparat Golgiego",
+            D: "Jądro"
+        },
+        answer: "A"
+    },
+    {
+        type: "text",
+        question: "Co nie jest unerwione przez autonomiczny układ nerwowy?",
+        answer: "Mięsień szkieletowy"
+    },
+    {
+        type: "multiple",
+        question: "Fałszywe o włókienku nerwowo-mięśniowym:",
+        options: {
+            A: "Włókna śródwrzecionkowe leżą prostopadle do włókien zewnętrznych"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Z czym łączą się jony wapnia?",
+        options: {
+            A: "Kinaza kreatynowa",
+            B: "Miozyna II",
+            C: "Inne",
+            D: "A i B",
+            E: "A, B i C"
+        },
+        answer: "D",
+        comment: "Odpowiedź to kombinacja kinazy kreatynowej i miozyny II; kalmodulina/kaldesmon nie wchodzi w skład tej odpowiedzi."
+    },
+    {
+        type: "multiple",
+        question: "Z czym łączą się filamenty grube?",
+        options: {
+            A: "Titina",
+            B: "Tropomiozyna",
+            C: "Troponina",
+            D: "Kombinacja jakaś",
+            E: "A, B, C"
+        },
+        answer: "A, B",
+        comment: "Filamenty grube łączą się głównie z titiną i tropomiozyną; troponina nie bierze udziału."
+    },
+    {
+        type: "multiple",
+        question: "Ependymocyty pokrywają:",
+        options: {
+            A: "Kór móżdżku",
+            B: "Splot naczyniówkowy"
+        },
+        answer: "B",
+        comment: "Poprawna odpowiedź to splot naczyniówkowy."
+    },
+    {
+        type: "text",
+        question: "Które komórki otoczone są ubogim ECM i mają wielokątny kształt?",
+        answer: "Adipocyty i komórki nabłonka"
+    },
+    {
+        type: "multiple",
+        question: "Zaznacz fałszywą odpowiedź o ziarninie:",
+        options: {
+            A: "Option A",
+            B: "Option B",
+            C: "Jest zbudowana z kolagenu typu 3, powstaje z fibroblastów i miofibroblastów, jej powstawanie jest stymulowane przez cytokiny i czynniki wzrostu"
+        },
+        answer: "C"
+    },
+    {
+        type: "multiple",
+        question: "Jaka komórka ma lekko zasadową cytoplazmę, fasolowate jądro i średnicę dwa razy większą od erytrocytu?",
+        options: {
+            A: "Granulocyt kwasochłonny",
+            B: "Granulocyt zasadochłonny",
+            C: "Monocyt",
+            D: "Limfocyt średni",
+            E: "Limfocyt duży"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Włókno nerwowe bezrdzenne to:",
+        options: {
+            A: "Tylko neurolema",
+            B: "Lemocyty bez aksonów"
+        },
+        answer: "A"
+    },
+    {
+        type: "text",
+        question: "W warstwie ziarnistej w korze móżdżku duże komórki gwiaździste nazywają się",
+        answer: "Olbrzymie koszykowate Purkiniego oraz komórki Golgiego"
+    },
+    {
+        type: "multiple",
+        question: "Jakie białka wiążą Ca2+?",
+        options: {
+            A: "Kinaza kreatyny",
+            B: "Miozyna II",
+            C: "Kalmodulina",
+            D: "A i B prawidłowe",
+            E: "A, B, C prawidłowe"
+        },
+        answer: "D"
+    },
+    {
+        type: "text",
+        question: "Jaka tkanka występuje w więzadle obłym macicy?",
+        answer: "Mięśnie gładkie",
+        comment: "HS 169 – Niektóre więzadła obłe macicy zawierają znaczne ilości komórek mięśni gładkich"
+    },
+    {
+        type: "multiple",
+        question: "W roztworze NaCl 0,4% erytrocyty pęcznieją i pękają. Jaki to roztwór?",
+        options: {
+            A: "Hipotoniczny",
+            B: "Izotoniczny",
+            C: "Hipertoniczny",
+            D: "Hiperosmotyczny"
+        },
+        answer: "A"
+    },
+    {
+        type: "multiple",
+        question: "Aktywna forma witaminy D powstaje w:",
+        options: {
+            A: "Skórze",
+            B: "Kościach",
+            C: "Nefronie",
+            D: "Dwunastnicy",
+            E: "Każda z powyższych"
+        },
+        answer: "C",
+        comment: "HS str.215"
+    },
+    {
+        type: "text",
+        question: "Co jest przyczyną choroby hemolitycznej noworodków?",
+        answer: "Dziecko Rh+; matka Rh-"
+    },
+    {
+        type: "text",
+        question: "Jak inaczej są nazywane komórki gwiaździste móżdżku?",
+        answer: "Komórki koszyczkowe"
+    },
+    {
+        type: "text",
+        question: "Włókna siateczkowe – czym są wybarwiane?",
+        answer: "Żadna z podanych odpowiedzi",
+        comment: "Rezorcyna i orceina byłyby dobre"
+    },
+    {
+        type: "text",
+        question: "Czego nie ma w strefie spoczynkowej?",
+        answer: "Komórki hipertroficzne",
+        comment: "Strefa spoczynkowa nie zawiera komórek hipertroficznych"
+    },
+    {
+        type: "multiple",
+        question: "Kiedy występują hemolityczne choroby u dziecka?",
+        options: {
+            A: "Kiedy dziecko ma Rh+ a matka Rh-",
+            B: "Kiedy dziecko ma grupę 0 a matka A",
+            C: "Kiedy dziecko ma grupę A a matka B",
+            D: "A i C",
+            E: "A, B, C"
+        },
+        answer: "D",
+        comment: "A i C - To było dobrze"
+    },
+    {
+        type: "text",
+        question: "Czym jest wydzielanie merokrynowe?",
+        answer: "Wydzielanie polega na dyfuzji cząsteczek substancji ze szczytowej części komórki, co nie doprowadza do jej uszkodzenia"
+    },
+    {
+        type: "text",
+        question: "Czym jest wydzielanie holokrynowe?",
+        answer: "Charakterystyczne dla gruczołów łojowych skóry; polega na przekształceniu się komórki gruczołu w wydzielinę i wydaleniu jej w całości"
+    },
 ];

@@ -65,6 +65,7 @@ function App() {
     setUserInput("");
     setShowAnswer(false);
     setIsCorrect(false);
+    setWrongAnswers(new Set());
     setCurrentIndex((prevIndex) => prevIndex + 1);
   };
 
