@@ -1120,11 +1120,6 @@ export const questions = [
     },
     {
         type: "text",
-        question: "Co to wydzielanie holokrynowe?",
-        answer: "Komórki rozpadają się"
-    },
-    {
-        type: "text",
         question: "Efekt antylipolityczny wywołany przez:",
         answer: "Insulinę"
     },
@@ -1287,18 +1282,8 @@ export const questions = [
     },
     {
         type: "text",
-        question: "Pierwotna tkanka kostna grubowłóknista",
+        question: "Pierwotna tkanka kostna",
         answer: "Grubowłóknista"
-    },
-    {
-        type: "text",
-        question: "Jak wygląda tkanka tłuszczowa brunatna pod mikroskopem?",
-        answer: "Bogato unaczyniona, z widocznymi miejscami po kroplach tłuszczu"
-    },
-    {
-        type: "text",
-        question: "Które białko transportuje cholesterol we krwi?",
-        answer: "Apolipoproteiny"
     },
     {
         type: "text",
@@ -1474,11 +1459,6 @@ export const questions = [
         type: "text",
         question: "Które białko transportuje cholesterol we krwi?",
         answer: "Apolipoproteiny"
-    },
-    {
-        type: "text",
-        question: "Co to jest hialuromer?",
-        answer: "Obwodowa część płytki"
     },
     {
         type: "multiple",
@@ -1778,7 +1758,7 @@ export const questions = [
             C: "Agreguje, żeby wytworzyć włókienka",
             D: "Kombinacje"
         },
-        answer: "D"
+        answer: "C"
     },
     {
         type: "multiple",
@@ -1932,11 +1912,6 @@ export const questions = [
     },
     {
         type: "text",
-        question: "Co to wydzielanie holokrynowe?",
-        answer: "Komórki rozpadają się"
-    },
-    {
-        type: "text",
         question: "Efekt antylipolityczny wywołany przez:",
         answer: "Insulinę"
     },
@@ -2007,12 +1982,6 @@ export const questions = [
         answer: "D"
     },
     {
-        type: "text",
-        question: "Co znajduje się w centrum dysku międzykręgowego oprócz kwasu hialuronowego?",
-        answer: "Kolagen II",
-        comment: "Odpowiedź wskazana to kolagen II (jądro miażdżyste)"
-    },
-    {
         type: "multiple",
         question: "Gdzie zachodzi erytropoeza?",
         options: {
@@ -2059,23 +2028,8 @@ export const questions = [
     },
     {
         type: "text",
-        question: "Pierwotna tkanka kostna grubowłóknista:",
-        answer: "Grubowłóknista"
-    },
-    {
-        type: "text",
         question: "Jak wygląda tkanka tłuszczowa brunatna pod mikroskopem?",
         answer: "Bogato unaczyniona i z miejscami po kroplach tłuszczu"
-    },
-    {
-        type: "text",
-        question: "Które białko transportuje cholesterol we krwi?",
-        answer: "Apolipoproteiny"
-    },
-    {
-        type: "text",
-        question: "Co to jest hialuromer?",
-        answer: "Obwodowa część płytki"
     },
     {
         type: "multiple",
@@ -2840,17 +2794,6 @@ export const questions = [
         type: "text",
         question: "Dla jakich związków są kanały termogeniny?",
         answer: "Dla protonów (H+)"
-    },
-    {
-        type: "multiple",
-        question: "Nieregularne ułożenie mikrotubul w aksonie na skutek:",
-        options: {
-            A: "Nadmiernej fosforylacji lub defosforylacji Tau",
-            B: "Fosforylacji MAP2",
-            C: "Defosforylacji MAP2",
-            D: "Kombinacja"
-        },
-        answer: "D"
     },
     {
         type: "text",

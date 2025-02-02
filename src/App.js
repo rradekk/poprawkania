@@ -61,14 +61,14 @@ function App() {
       <div style={styles.container}>
         <h1>Choose Quiz Mode</h1>
         <div style={styles.modeSelection}>
-          <button 
-            style={{...styles.button, ...styles.modeButton}} 
+          <button
+            style={{ ...styles.button, ...styles.modeButton }}
             onClick={handleAllQuestions}
           >
             All Questions ({questions.length})
           </button>
-          <button 
-            style={{...styles.button, ...styles.modeButton}} 
+          <button
+            style={{ ...styles.button, ...styles.modeButton }}
             onClick={handleRandomQuestions}
           >
             Random 20 Questions
@@ -164,8 +164,8 @@ function App() {
     <div style={styles.container}>
       <div style={styles.questionHeader}>
         <h1>Question {currentIndex + 1}</h1>
-        <button 
-          style={{...styles.button, ...styles.skipButton}} 
+        <button
+          style={{ ...styles.button, ...styles.skipButton }}
           onClick={goToNextQuestion}
         >
           Skip
@@ -227,8 +227,8 @@ function App() {
           {!isCorrect ? (
             <div style={styles.buttonGroup}>
               {!showAnswer && (
-                <button 
-                  style={{...styles.button, ...styles.showAnswerButton}} 
+                <button
+                  style={{ ...styles.button, ...styles.showAnswerButton }}
                   onClick={handleShowAnswer}
                 >
                   Show Answer
